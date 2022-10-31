@@ -1,0 +1,80 @@
+header a{
+    color: black;
+}
+
+nav{
+    display:flex;
+    justify-content: space-around;
+    background-color: rgb(166, 228, 253);
+    height: 1cm;
+}
+
+nav a{
+    color: rgb(14, 0, 0);
+    text-decoration: none;
+    border-style: hidden;
+    border-radius: 10px;
+}
+body{
+    background-color: darkgray;
+}
+
+
+
+main{
+    background-color: darkgrey;
+}
+main p{
+    width: 30%;
+    border-style: solid;
+    border-color: rgb(196, 41, 2);  
+}
+
+ul{
+    width: 30%;
+    border-style: solid;
+    border-color: rgb(196, 41, 2);
+    border-right-style: groove;
+}
+img{
+    width: 30%;
+    height: 10%;
+    border-radius: 100px;
+}
+
+
+main h1{
+    background-color: darkgray;
+}
+
+#img{
+    text-align: center;
+    width: 100%;
+}
+
+.intro{
+    text-align: center;
+}
+
+.btn{
+    justify-content: space-around;
+    padding: 10px;
+    width: 50%;
+
+}
+
+main{
+    background-color: darkgray;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/makua.jpeg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}

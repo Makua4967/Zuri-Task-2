@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resgistration Page</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <main>
+    <h1>Registraton Page</h1>
+    <fieldset>
+    <form action="">
+        <legend>
+      <table>
+        <tr>
+          <td>
+            <label for="fname">First Name</label>
+          </td>
+          <td><input type="text" name="" id="" required/></td>
+        </tr>
+        <tr>
+          <td>
+            <label for="lname">Last Name</label>
+          </td>
+          <td><input type="text" name="lname" id="lname" required /></td>
+        </tr>
+        <tr>
+            <td><label for="Phone number">Phone</label></td>
+          </td>
+          <td><input type="tel" name="Phone number" placeholder="xxx-xxxx-xxxx" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" id="Phone number" /></td>
+        </tr>
+        <tr>
+          <td>
+            <label for="Gender">Gender</label>
+          </td>
+          <td>
+            <select name="gender" id="gender">
+              <option value="gender">Male</option>
+              <option value="gender">Female</option>
+              <option value="gender">Others</option>
+              <option value="gender">Not sure</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+            <td><label for="country">Country</label>
+              </td>
+              <td><input type="text" name="country" id="country" /></td>
+            </tr>
+            <tr>
+                <td><label for="state/provnc">State/Province</label>
+                  </td>
+                  <td><input type="text" name="state/provnc" id="state/provnc" /></td>
+                </tr>
+                <tr>
+                    <td>
+                      <label for="email">Email</label>
+                    </td>
+                    <td><input type="email" name="email" id="email" required/></td>
+                  </tr>
+                  <tr>
+                    <td><label for="Password">Password</label>
+                  </td>
+                  <td><input type="Password" name="Password" maxlength="12" minlength="6"  id="Password" required /></td>
+                </tr>
+                <tr>
+                    <td><label for="ConfirmPassword">Confirm Password</label>
+                  </td>
+                  <td><input type="Password" name="ConfirmPassword" maxlength="12" minlength="6"  id="Password" required /></td>
+                </tr>
+        <tr>
+            <td>
+                <input type="submit" value="Submit">
+            </td>
+        </tr>
+      </table>
+    </legend>
+    </form>
+  </fieldset>
+</main>
+  </body>
+  <footer>
+      
+  </footer>
+</html>
